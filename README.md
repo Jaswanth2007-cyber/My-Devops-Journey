@@ -17,4 +17,9 @@ It contains hands-on notes, step-by-step playbooks, commands I used, common erro
 ---
 
 ## 📂 Repository Structure
+```text
+My-Devops-journey/
+├── linux&installation/
+│   └── linux-basics.md
+└── README.md
 
