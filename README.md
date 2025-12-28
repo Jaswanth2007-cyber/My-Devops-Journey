@@ -10,11 +10,10 @@ It contains hands-on notes, step-by-step playbooks, commands I used, common erro
 
 - Linux fundamentals and command-line usage
 - Docker basics and containerized applications
-- MySQL and Nginx using Docker
 - Cloud basics using AWS
 - Kubernetes fundamentals (upcoming)
 - Real troubleshooting notes and fixes
-
+-(comingsoon.....)
 ---
 
 ## 📂 Repository Structure
