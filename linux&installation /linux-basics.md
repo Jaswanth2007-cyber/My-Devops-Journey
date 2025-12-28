@@ -4,8 +4,6 @@
 
 Run the following command in **PowerShell as Administrator**:
 
-```powershell
-
 wsl --install
 
 Ubuntu will open automatically
@@ -66,3 +64,6 @@ Lists all files, including hidden files, along with detailed information such as
 
 ##history
 To see all executed commands.
+
+##To exit Linux 
+Open new poweshell tab and type(wsl --shutdown) enter.
