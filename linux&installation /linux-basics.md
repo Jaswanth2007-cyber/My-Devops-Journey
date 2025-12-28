@@ -10,60 +10,69 @@ Ubuntu will open automatically
 Set a Linux username and password
 Once this is done, the Linux environment is successfully set up on Windows.
 
-#Linux basic commands
+# WSL and Basic Linux Commands
 
-#whoami
-To check current user.
+## Installing WSL (Windows Subsystem for Linux)
 
-##mkdir directory_name
-To make a directory.
+Run the following command in **PowerShell as Administrator**:
 
-##pwd
-shows current directory path where the user is working.(Print Working Directory)
+powershell
+wsl --install
+Ubuntu will open automatically.
 
-##cd directory_name
-Moves into the specified directory(change directory).
+Set a Linux username and password.
 
-##cd ..
-To move one directory back.
+Once this is done, the Linux environment is successfully set up on Windows.
 
-##cd ~
-current working directory to the user's home directory.
+Linux Basic Commands
+System Info
+whoami: To check current user.
 
-##mv existing file/directory name changing file/directory name
-It changes file names.(move)
+pwd: Shows current directory path where the user is working (Print Working Directory).
 
-##touch file_name
-creates a file.
+clear: Clears the terminal screen.
 
-##vim file_name
-To create and write file at a time
-To exit: i for insert mode to write and you must press i or any operation key.To exit press esc and shift + ; and type wq and enter. 
+history: To see all previously executed commands.
 
-##nano filename
-To write something to a file.
-To exit nano: ctrl+x > press y if you want to save or press n for no > enter. 
+File & Directory Management
+ls: Lists all files and folders in the current directory.
 
-##cat file_name
-Shows content in that file.
+ls -la: Lists all files, including hidden files, with detailed information (permissions, owner, size).
 
-##echo "write something here"
-Prints write something here.
+mkdir [directory_name]: To make a new directory.
 
-##rm filename
-To delete the file (be careful once deleted no archiving).
+touch [file_name]: Creates a new empty file.
 
-##clear 
-Clears the terminal.
+mv [existing_name] [new_name]: Moves or renames a file/directory.
 
-##ls
-Lists all files and folders in the current directory.
+rm [filename]: To delete a file (Caution: No undo/archiving).
 
-##ls -la 
-Lists all files, including hidden files, along with detailed information such as permissions, owner, and file size.
+cat [file_name]: Shows the content inside a file.
 
-##history
-To see all executed commands.
+echo "text": Prints the specified text to the terminal.
 
-##To exit Linux 
-Open new poweshell tab and type(wsl --shutdown) enter.
+Navigation
+cd [directory_name]: Moves into the specified directory.
+
+cd ..: To move one directory back.
+
+cd ~: Moves to the user's home directory.
+
+Text Editors
+Nano
+To open: nano filename
+
+To exit: Press Ctrl + X, then press Y to save (or N to discard), then hit Enter.
+
+Vim
+To open: vim filename
+
+To write: Press i to enter Insert mode.
+
+To save & exit: Press Esc, then type :wq and hit Enter.
+
+o Exit Linux (Shutdown WSL)
+
+Open a new PowerShell tab and type:
+
+wsl --shutdown -> hit enter.
