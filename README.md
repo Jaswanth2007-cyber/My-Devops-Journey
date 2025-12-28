@@ -1,2 +1,21 @@
-# My-Devops-Journey
-My public DevOps learning journal 📘  This repository contains notes, playbooks, and practical experiments as I learn DevOps from scratch—covering Linux, Docker, AWS, Kubernetes, and cloud-native fundamentals.  Learning by building. Documenting everything.
+# DevOps Learning Journey 🚀
+
+This repository documents my DevOps learning journey from scratch.
+
+It contains hands-on notes, step-by-step playbooks, commands I used, common errors I faced, and practical setups while learning DevOps concepts in public.
+
+---
+
+## 📌 What This Repository Covers
+
+- Linux fundamentals and command-line usage
+- Docker basics and containerized applications
+- MySQL and Nginx using Docker
+- Cloud basics using AWS
+- Kubernetes fundamentals (upcoming)
+- Real troubleshooting notes and fixes
+
+---
+
+## 📂 Repository Structure
+
