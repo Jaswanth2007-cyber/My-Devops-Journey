@@ -24,8 +24,12 @@ My-Devops-journey/
 ├── linux&installation/
 │   └── linux-basics.md
 │
-└── Docker/
-    ├── README.md
-    ├── docker & Dockerfile.md
-    └── Docker-compose.md
+├── Docker/
+│   ├── README.md
+│   ├── docker & Dockerfile.md
+│   └── Docker-compose.md
+│
+└── Kubernetes-k8s/
+    └── k8s-notes.md
+
 
