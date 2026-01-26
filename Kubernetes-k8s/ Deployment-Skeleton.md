@@ -1,6 +1,6 @@
-# Kubernetes Deployment & Service YAML Skeleton
+# Kubernetes Deployment YAML Skeleton
 
-This document provides **clean skeleton templates** for Kubernetes `Deployment` and `Service` manifests, useful for **learning, revision, interviews, and real projects**.
+This document provides **clean skeleton templates** for Kubernetes `Deployment` manifests, useful for **learning, revision, interviews, and real projects**.
 
 ---
 
