@@ -17,7 +17,7 @@ It contains hands-on notes, step-by-step playbooks, commands I used, common erro
 ---
 
 ## 📂 Repository Structure
-```text
+```
 My-Devops-journey/
 ├── README.md
 │
@@ -30,6 +30,10 @@ My-Devops-journey/
 │   └── Docker-compose.md
 │
 └── Kubernetes-k8s/
-    └── k8s-notes.md
+    ├── README.md
+    ├── k8s-notes.md
+    ├── Deployment-Skeleton.md
+    └── Service-Skeleton.md
+```
 
 
